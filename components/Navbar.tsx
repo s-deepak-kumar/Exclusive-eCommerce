@@ -6,7 +6,7 @@ import { Heart, ShoppingCart } from 'lucide-react'
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className="bg-white border-b-[1.5px]">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
@@ -51,7 +51,7 @@ export default function Navbar() {
                     <input
                       id="search"
                       name="search"
-                      className="block w-full rounded-md border-0 bg-white py-1.5 pr-10 pl-3 text-gray-900 placeholder:text-gray-400 bg-[#F5F5F5] sm:text-xs sm:leading-6 outline-none"
+                      className="block w-full rounded-md border-0 bg-white py-1.5 pr-10 pl-3 text-gray-900 placeholder:text-gray-400 bg-gray-100 sm:text-xs sm:leading-6 outline-none"
                       placeholder="What are you looking for?"
                       type="search"
                     />
