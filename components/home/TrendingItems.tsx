@@ -243,13 +243,12 @@ export default function TrendingItems() {
           </div>
         </div>
 
-        <div className="mt-12 flex px-4 sm:hidden">
+        <div className="mt-12 px-4 w-full text-center">
           <a
             href="#"
-            className="text-sm font-semibold text-indigo-600 hover:text-indigo-500"
+            className="text-sm font-semibold text-white bg-[#DB4444] py-2.5 px-6 rounded"
           >
-            See everything
-            <span aria-hidden="true"> &rarr;</span>
+            View All Products
           </a>
         </div>
       </div>
