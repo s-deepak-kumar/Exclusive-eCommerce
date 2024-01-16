@@ -2,6 +2,7 @@
 
 import LeftMenu from "@/components/home/LeftMenu";
 import Slider_ from "@/components/home/Slider";
+import TrendingItems from "@/components/home/TrendingItems";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <LeftMenu />
       <Slider_ />
     </div>
+
+    <TrendingItems />
     </>
   );
 }
