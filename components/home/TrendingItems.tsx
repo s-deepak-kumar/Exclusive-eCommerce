@@ -103,8 +103,8 @@ const products = [
 
 export default function TrendingItems() {
   return (
-    <div className="bg-white mt-4">
-      <div className="py-16 sm:py-24 lg:mx-auto lg:max-w-7xl lg:px-8">
+    <div className="bg-white mt-12">
+      <div className="py-8 sm:py-16 lg:mx-auto lg:max-w-7xl lg:px-8">
         <div className="flex items-center">
           <span className="w-4 h-8 bg-[#DB4444] rounded"></span>
           <span className="text-sm text-[#DB4444] ml-3 font-semibold">

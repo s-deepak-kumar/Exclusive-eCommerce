@@ -1,5 +1,6 @@
 "use client";
 
+import Category from "@/components/home/Category";
 import LeftMenu from "@/components/home/LeftMenu";
 import Slider_ from "@/components/home/Slider";
 import TrendingItems from "@/components/home/TrendingItems";
@@ -13,6 +14,8 @@ export default function Home() {
     </div>
 
     <TrendingItems />
+    <hr className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8 gap-8" />
+    <Category />
     </>
   );
 }
