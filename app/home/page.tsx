@@ -3,6 +3,7 @@
 import Banner from "@/components/home/Banner";
 import BestSellingItems from "@/components/home/BestSellingItems";
 import Category from "@/components/home/Category";
+import ExploreItems from "@/components/home/ExploreItems";
 import LeftMenu from "@/components/home/LeftMenu";
 import Slider_ from "@/components/home/Slider";
 import TrendingItems from "@/components/home/TrendingItems";
@@ -21,6 +22,7 @@ export default function Home() {
     <hr className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8 gap-8" />
     <BestSellingItems />
     <Banner />
+    <ExploreItems />
     </>
   );
 }
