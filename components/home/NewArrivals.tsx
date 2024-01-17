@@ -4,17 +4,17 @@ export default function NewArrivals() {
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <div className="flex items-center">
           <span className="w-4 h-8 bg-[#DB4444] rounded"></span>
-          <span className="text-sm text-[#DB4444] ml-3 font-semibold">
+          <span className="text-md text-[#DB4444] ml-3 font-semibold">
             Featured
           </span>
         </div>
-        <div className="mt-4">
+        <div className="mt-6">
           <h2 className="text-4xl font-semibold tracking-tight text-gray-900">
             New Arrivals
           </h2>
         </div>
 
-        <div className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
+        <div className="mt-10 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
           <div className="group overflow-hidden rounded sm:relative sm:row-span-2 bg-black h-[520px] flex justify-center">
             <img
               src="/ps5-slim-goedkope-playstation_large.png"

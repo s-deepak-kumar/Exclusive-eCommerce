@@ -11,3 +11,7 @@ export interface Product {
     thumbnail: string;
     images: string[];
   }
+
+  export interface ProductDataInterface {
+    data: Product[] | null
+}

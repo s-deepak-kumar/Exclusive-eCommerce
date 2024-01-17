@@ -9,24 +9,26 @@ import LeftMenu from "@/components/home/LeftMenu";
 import NewArrivals from "@/components/home/NewArrivals";
 import Slider_ from "@/components/home/Slider";
 import TrendingItems from "@/components/home/TrendingItems";
-import { useEffect, useState } from "react";
+import useProductData from "@/hooks/useProductData";
 
 export default function Home() {
-  const [trendingItemsData, setTrendingItemsData] = useState<any | null>(null);
+  const {
+    productsData: trendingItemsData,
+    isLoading: trendingItemsLoading,
+    error: trendingItemsError,
+  } = useProductData({ limit: 5, skip: 55 });
+  
+  const {
+    productsData: bestSellingItemsData,
+    isLoading: bestSellingItemsLoading,
+    error: bestSellingItemsError,
+  } = useProductData({ limit: 5, skip: 10 });
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("/api/products?featured=true");
-        const data = await response.json();
-        setTrendingItemsData(data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
+  const {
+    productsData: exploreItemsData,
+    isLoading,
+    error,
+  } = useProductData({ limit: 10, skip: 40 });
 
   return (
     <>
@@ -42,9 +44,9 @@ export default function Home() {
       <hr className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8 gap-8" />
       <Category />
       <hr className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8 gap-8" />
-      <BestSellingItems />
+      <BestSellingItems data={bestSellingItemsData} />
       <Banner />
-      <ExploreItems />
+      <ExploreItems data={exploreItemsData} />
       <NewArrivals />
       <Incentives />
     </>

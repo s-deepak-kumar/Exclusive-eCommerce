@@ -1,4 +1,10 @@
-import { Facebook, Instagram, Linkedin, SendHorizonal, Twitter } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  SendHorizonal,
+  Twitter,
+} from "lucide-react";
 
 const navigation = {
   solutions: [
@@ -24,22 +30,22 @@ const navigation = {
     {
       name: "Facebook",
       href: "#",
-      icon: <Facebook className="h-5 w-5 text-white" aria-hidden="true"/>,
+      icon: <Facebook className="h-5 w-5 text-white" aria-hidden="true" />,
     },
     {
       name: "Instagram",
       href: "#",
-      icon: <Instagram className="h-5 w-5 text-white" aria-hidden="true"/>,
+      icon: <Instagram className="h-5 w-5 text-white" aria-hidden="true" />,
     },
     {
       name: "X",
       href: "#",
-      icon: <Twitter className="h-5 w-5 text-white" aria-hidden="true"/>,
+      icon: <Twitter className="h-5 w-5 text-white" aria-hidden="true" />,
     },
     {
       name: "Linkedin",
       href: "#",
-      icon: <Linkedin className="h-5 w-5 text-white" aria-hidden="true"/>,
+      icon: <Linkedin className="h-5 w-5 text-white" aria-hidden="true" />,
     },
   ],
 };
@@ -52,7 +58,7 @@ export default function Footer() {
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-4 pt-20 sm:pt-12">
         <div className="xl:grid xl:grid-cols-4 xl:gap-8">
-            {/* Subscribe */}
+          {/* Subscribe */}
           <div className="w-max">
             <h1 className="font-semibold text-gray-500 text-xl">Exclusive</h1>
             <h3 className="text-sm font-semibold leading-6 text-white mt-4">
@@ -155,11 +161,11 @@ export default function Footer() {
                   </span>
                 </div>
                 <div className="flex space-x-4 mt-3">
-                    <img src="/qr_code.png" alt="" className="flex-1" />
-                    <div className="space-y-3">
+                  <img src="/qr_code.png" alt="" className="flex-1" />
+                  <div className="space-y-3">
                     <img src="/play_store.png" />
                     <img src="/apple_store.png" />
-                    </div>
+                  </div>
                 </div>
                 <div className="flex space-x-6 md:order-2 mt-4">
                   {navigation.social.map((item) => (
@@ -178,7 +184,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-2 border-t border-white/10 pt-4 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-14">
-          <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0 w-full text-center">
+          <p className="mt-8 text-sm leading-5 text-gray-400 md:order-1 md:mt-0 w-full text-center">
             &copy; 2023 Exclusive. All rights reserved.
           </p>
         </div>

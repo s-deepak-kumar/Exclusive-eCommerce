@@ -1,3 +1,5 @@
+import CountdownTimer from "./CountdownTimer"
+
 export default function Banner() {
   return (
     <div className="bg-white mt-2">
@@ -10,24 +12,7 @@ export default function Banner() {
             <p className="text-4xl text-white font-[600] mt-6">
             Enhance Your Music Experience
             </p>
-            <div className="text-black flex mt-8 gap-4">
-              <div className="flex flex-col w-14 h-14 bg-white items-center justify-center rounded-full">
-                <span className="text-md font-bold">03</span>
-                  <span className="text-[9px] font-[500]">Days</span>
-              </div>
-              <div className="flex flex-col w-14 h-14 bg-white items-center justify-center rounded-full">
-                <span className="text-md font-bold">03</span>
-                  <span className="text-[9px] font-[500]">Hours</span>
-              </div>
-              <div className="flex flex-col w-14 h-14 bg-white items-center justify-center rounded-full">
-                <span className="text-md font-bold">03</span>
-                  <span className="text-[9px] font-[500]">Minutes</span>
-              </div>
-              <div className="flex flex-col w-14 h-14 bg-white items-center justify-center rounded-full">
-                <span className="text-md font-bold">03</span>
-                  <span className="text-[9px] font-[500]">Seconds</span>
-              </div>
-            </div>
+            <CountdownTimer circularTimer={true} />
             <div
               aria-hidden="true"
               className="mt-8 text-sm text-white flex items-center"

@@ -5,11 +5,11 @@ export async function GET(req: NextRequest) {
     // Accessing URL parameter
     const { searchParams } = new URL(req?.url);
 
-    // Get featured value
-    const featured = searchParams?.get("featured")|| false;
+    // Get queries
+    const skip = searchParams?.get("skip") || 0;
+    const limit = searchParams?.get("limit") || 5;
 
-    // Use the productId in the API call or any logic you need
-    const response = await fetch(`https://dummyjson.com/products?${featured ? "skip=25&limit=5" : "limit=10"}`);
+    const response = await fetch(`https://dummyjson.com/products?skip=${skip}&limit=${limit}`);
     const data = await response.json();
 
     return NextResponse.json(data, {
