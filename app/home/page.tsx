@@ -1,5 +1,6 @@
 "use client";
 
+import Banner from "@/components/home/Banner";
 import BestSellingItems from "@/components/home/BestSellingItems";
 import Category from "@/components/home/Category";
 import LeftMenu from "@/components/home/LeftMenu";
@@ -19,6 +20,7 @@ export default function Home() {
     <Category />
     <hr className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8 gap-8" />
     <BestSellingItems />
+    <Banner />
     </>
   );
 }
