@@ -5,6 +5,7 @@ import BestSellingItems from "@/components/home/BestSellingItems";
 import Category from "@/components/home/Category";
 import ExploreItems from "@/components/home/ExploreItems";
 import LeftMenu from "@/components/home/LeftMenu";
+import NewArrivals from "@/components/home/NewArrivals";
 import Slider_ from "@/components/home/Slider";
 import TrendingItems from "@/components/home/TrendingItems";
 
@@ -23,6 +24,7 @@ export default function Home() {
     <BestSellingItems />
     <Banner />
     <ExploreItems />
+    <NewArrivals />
     </>
   );
 }
