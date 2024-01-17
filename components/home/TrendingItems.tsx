@@ -1,3 +1,5 @@
+import { CURRENCY } from "@/utils/CONSTANTS";
+import { Product } from "@/utils/interfaces";
 import { classNames } from "@/utils/utils";
 import {
   ArrowLeft,
@@ -7,6 +9,7 @@ import {
   Star,
   StarIcon,
 } from "lucide-react";
+import CountdownTimer from "./CountdownTimer";
 
 const products = [
   {
@@ -101,7 +104,11 @@ const products = [
   },
 ];
 
-export default function TrendingItems() {
+type TrendingItemInterface = {
+    data: any
+}
+
+export default function TrendingItems({data} : TrendingItemInterface) {
   return (
     <div className="bg-white mt-12">
       <div className="py-8 sm:py-16 lg:mx-auto lg:max-w-7xl lg:px-8">
@@ -113,38 +120,10 @@ export default function TrendingItems() {
         </div>
         <div className="flex items-center justify-between px-4 sm:px-6 lg:px-0 mt-4">
           <div className="flex items-end">
-            <h2 className="text-4xl font-[500] tracking-tight text-gray-900">
+            <h2 className="text-4xl font-semibold tracking-tight text-gray-900">
               Flash Sales
             </h2>
-            <div className="text-black flex ml-16">
-              <div className="flex flex-col">
-                <span className="text-xs font-[500]">Days</span>
-                <div className="flex items-center">
-                  <span className="text-3xl font-bold">03</span>
-                  <span className="text-2xl mx-3 text-[#E07575]">:</span>
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xs font-[500]">Hours</span>
-                <div className="flex items-center">
-                  <span className="text-3xl font-bold">03</span>
-                  <span className="text-2xl mx-3 text-[#E07575]">:</span>
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xs font-[500]">Minutes</span>
-                <div className="flex items-center">
-                  <span className="text-3xl font-bold">03</span>
-                  <span className="text-2xl mx-3 text-[#E07575]">:</span>
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xs font-[500]">Seconds</span>
-                <div className="flex items-center">
-                  <span className="text-3xl font-bold">03</span>
-                </div>
-              </div>
-            </div>
+            <CountdownTimer />
           </div>
 
           <div className="flex">
@@ -175,7 +154,7 @@ export default function TrendingItems() {
               role="list"
               className="mx-4 inline-flex space-x-8 sm:mx-6 lg:mx-0 lg:grid lg:grid-cols-5 lg:gap-x-8 lg:space-x-0"
             >
-              {products.map((product) => (
+              {data?.products.map((product: Product) => (
                 <li
                   key={product.id}
                   className="inline-flex flex-col text-center lg:w-auto"
@@ -183,12 +162,12 @@ export default function TrendingItems() {
                   <div className="group relative">
                     <div className="w-full overflow-hidden rounded-md bg-gray-100 relative">
                       <img
-                        src={product.imageSrc}
-                        alt={product.imageAlt}
-                        className="max-h-[180px] group-hover:opacity-75 mx-auto"
+                        src={product.thumbnail}
+                        alt={product.title}
+                        className="h-[180px] group-hover:opacity-75 mx-auto"
                       />
                       <span className="absolute top-0 left-0 m-4 px-2 py-1 bg-[#DB4444] text-white rounded text-xs">
-                        -40%
+                        -{Math.ceil(product?.discountPercentage)}%
                       </span>
                       <div className="absolute top-0 right-0 m-4">
                         <Heart className="w-8 h-8 bg-white text-black rounded-full p-2" />
@@ -200,17 +179,17 @@ export default function TrendingItems() {
                     </div>
                     <div className="mt-3 text-left">
                       <h3 className="mt-1 font-[500] text-gray-900 text-sm">
-                        <a href={product.href}>
+                        <a href={`/product/${product.id}`}>
                           <span className="absolute inset-0" />
-                          {product.name}
+                          {product.title}
                         </a>
                       </h3>
                       <div className="flex">
                         <p className="mt-1 text-gray-900 text-sm">
-                          {product.price}
+                          {CURRENCY}{Math.floor(product.price - (product.price * product?.discountPercentage / 100))}
                         </p>
                         <p className="mt-1 text-gray-400 ml-4 line-through text-sm">
-                          {product.price}
+                        {CURRENCY}{Math.floor(product.price)}
                         </p>
                       </div>
                       <div className="mt-1 flex items-center">
@@ -232,7 +211,7 @@ export default function TrendingItems() {
                           ))}
                         </div>
                         <p className="text-sm text-gray-500 ml-2">
-                          ({product.reviewCount})
+                          ({Math.floor(product.rating * 16)})
                         </p>
                       </div>
                     </div>
