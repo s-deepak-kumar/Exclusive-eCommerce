@@ -1,7 +1,7 @@
 import { ProductItem } from "../ProductItem";
 import { Product, ProductDataInterface } from "@/utils/interfaces";
 
-export default function BestSellingItems({data} : ProductDataInterface) {
+export default function BestSellingItems({data, onAddToCart} : ProductDataInterface) {
   return (
     <div className="bg-white mt-2">
       <div className="py-8 sm:py-12 lg:mx-auto lg:max-w-7xl lg:px-8">
@@ -39,7 +39,7 @@ export default function BestSellingItems({data} : ProductDataInterface) {
                   key={product.id}
                   className="inline-flex flex-col text-center lg:w-auto"
                 >
-                  <ProductItem product={product} />
+                  <ProductItem product={product} onAddToCart={onAddToCart} />
                 </li>
               ))}
             </ul>

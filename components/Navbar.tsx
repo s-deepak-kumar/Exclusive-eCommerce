@@ -1,12 +1,10 @@
 "use client";
 
-import useCuid from "@/hooks/useCuid";
 import { Disclosure } from "@headlessui/react";
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { Heart, ShoppingCart } from "lucide-react";
 
-export default function Navbar({cartCount = 0}) {
-  const cuidValue = useCuid();
+export default function Navbar({ cartCount = 0 }) {
   return (
     <Disclosure as="nav" className="bg-white border-b-[1px]">
       {({ open }) => (
@@ -14,13 +12,13 @@ export default function Navbar({cartCount = 0}) {
           <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
             <div className="flex h-20 justify-between pt-4 items-center">
               <div className="flex px-2 lg:px-0 gap-6 items-center">
-                <div className="flex flex-shrink-0 items-center">
+                <a href="/" className="flex flex-shrink-0 items-center">
                   <h2 className="text-2xl text-black font-bold">Exclusive</h2>
-                </div>
+                </a>
               </div>
               <div className="lg:ml-4 lg:flex lg:space-x-6 h-max">
                 <a
-                  href="#"
+                  href="/"
                   className="inline-flex items-center border-b-[1px] border-gray-500 px-1 text-md text-black"
                 >
                   Home
@@ -78,8 +76,8 @@ export default function Navbar({cartCount = 0}) {
                   />
                 </button>
 
-                <button
-                  type="button"
+                <a
+                  href="/cart"
                   className="relative flex-shrink-0 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
                   <span className="absolute -inset-1.5" />
@@ -89,10 +87,12 @@ export default function Navbar({cartCount = 0}) {
                     className="h-6 w-6 text-black"
                     aria-hidden="true"
                   />
-                  {cartCount > 0 && <span className="text-xs font-medium text-gray-700 bg-gray-200 py-0.5 px-1.5 rounded-full absolute top-[-4px] right-[-7px]">
-                    {cartCount}
-                  </span>}
-                </button>
+                  {cartCount > 0 && (
+                    <span className="text-xs font-medium text-gray-700 bg-gray-200 py-0.5 px-1.5 rounded-full absolute top-[-4px] right-[-7px]">
+                      {cartCount}
+                    </span>
+                  )}
+                </a>
               </div>
             </div>
           </div>

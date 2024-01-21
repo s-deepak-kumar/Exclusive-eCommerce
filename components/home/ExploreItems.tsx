@@ -1,16 +1,11 @@
 import { ProductDataInterface } from "@/utils/interfaces";
-import { classNames } from "@/utils/utils";
 import {
   ArrowLeft,
   ArrowRight,
-  Eye,
-  Heart,
-  Star,
-  StarIcon,
 } from "lucide-react";
 import { ProductItem } from "../ProductItem";
 
-export default function ExploreItems({data} : ProductDataInterface) {
+export default function ExploreItems({data, onAddToCart} : ProductDataInterface) {
   return (
     <div className="bg-white mt-4">
       <div className="py-8 sm:py-12 lg:mx-auto lg:max-w-7xl lg:px-8">
@@ -60,7 +55,7 @@ export default function ExploreItems({data} : ProductDataInterface) {
                   key={product.id}
                   className="inline-flex flex-col text-center lg:w-auto"
                 >
-                  <ProductItem product={product} />
+                  <ProductItem product={product} onAddToCart={onAddToCart} />
                 </li>
               ))}
             </ul>

@@ -1,4 +1,4 @@
-import { classNames } from '@/utils/utils';
+import { classNames } from '@/utils';
 import { Disclosure } from '@headlessui/react';
 import { ChevronRightIcon } from 'lucide-react';
 import React from 'react';

@@ -1,5 +1,3 @@
-"use client"
-
 import { useEffect, useState } from 'react';
 import cuid from 'cuid';
 
@@ -16,8 +14,12 @@ const useCuid = (): string => {
       // Generate a new cuid
       const newCuid = cuid();
 
-      // Store the cuid in cache
-      sessionStorage.setItem('cuid', newCuid);
+      // Set the expiration date to one year from now
+      const expirationDate = new Date();
+      expirationDate.setFullYear(expirationDate.getFullYear() + 1);
+
+      // Store the cuid in cookie with an expiration date
+      document.cookie = `cuid=${newCuid}; expires=${expirationDate.toUTCString()}; path=/`;
 
       // Set the cuid in state
       setCachedCuid(newCuid);

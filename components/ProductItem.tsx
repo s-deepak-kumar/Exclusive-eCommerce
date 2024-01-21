@@ -1,14 +1,41 @@
+import useCuid from "@/hooks/useCuid";
 import { CURRENCY } from "@/utils/CONSTANTS";
 import { Product } from "@/utils/interfaces";
-import { classNames } from "@/utils/utils";
+import { classNames } from "@/utils";
 import { StarIcon } from "@heroicons/react/20/solid";
 import { Eye, Heart } from "lucide-react";
 
 type ProductItemInterface = {
-    product: Product
-}
+  product: Product;
+  onAddToCart: () => void;
+};
 
-export const ProductItem = ({product} : ProductItemInterface) => {
+export const ProductItem = ({ product, onAddToCart }: ProductItemInterface) => {
+  const cuid = useCuid();
+
+  const addToCart = async () => {
+    try {
+      const response = await fetch("/api/cart/add", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ cuid, product }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        console.log("Product added to cart successfully:", data.message);
+        onAddToCart()
+      } else {
+        console.error("Error adding product to cart:", data.message);
+      }
+    } catch (error) {
+      console.error("API error:", error);
+    }
+  };
+
   return (
     <div className="group relative">
       <div className="w-full overflow-hidden rounded-md bg-gray-100 relative">
@@ -24,7 +51,7 @@ export const ProductItem = ({product} : ProductItemInterface) => {
           <Heart className="w-8 h-8 bg-white text-black rounded-full p-2" />
           <Eye className="w-8 h-8 bg-white text-black rounded-full p-2 mt-2" />
         </div>
-        <div className="w-full bg-black py-2 text-white text-sm cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute bottom-0">
+        <div className="w-full bg-black py-2 text-white text-sm cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute bottom-0 z-10" onClick={addToCart}>
           Add to Cart
         </div>
       </div>
@@ -35,15 +62,15 @@ export const ProductItem = ({product} : ProductItemInterface) => {
             {product.title}
           </a>
         </h3>
-        <div className="flex">
-          <p className="mt-1 text-gray-900 text-sm font-semibold">
+        <div className="flex mt-1">
+          <p className="text-gray-900 text-sm font-semibold">
             {CURRENCY}
             {Math.floor(
               product.price -
                 (product.price * product?.discountPercentage) / 100
             )}
           </p>
-          <p className="mt-1 text-gray-400 ml-2 line-through text-sm">
+          <p className="text-gray-400 ml-2 line-through text-sm">
             {CURRENCY}
             {Math.floor(product.price)}
           </p>
@@ -62,7 +89,7 @@ export const ProductItem = ({product} : ProductItemInterface) => {
               />
             ))}
           </div>
-          <p className="text-sm text-gray-500 ml-2">
+          <p className="text-xs text-gray-500 ml-2">
             ({Math.floor(product.rating * 16)})
           </p>
         </div>

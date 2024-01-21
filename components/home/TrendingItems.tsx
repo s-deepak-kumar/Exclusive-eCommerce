@@ -8,7 +8,7 @@ import { ProductItem } from "../ProductItem";
 
 
 
-export default function TrendingItems({data} : ProductDataInterface) {
+export default function TrendingItems({data, onAddToCart} : ProductDataInterface) {
   return (
     <div className="bg-white mt-12">
       <div className="py-8 sm:py-16 lg:mx-auto lg:max-w-7xl lg:px-8">
@@ -59,7 +59,7 @@ export default function TrendingItems({data} : ProductDataInterface) {
                   key={product.id}
                   className="inline-flex flex-col text-center lg:w-auto"
                 >
-                  <ProductItem product={product} />
+                  <ProductItem product={product} onAddToCart={onAddToCart} />
                 </li>
               ))}
             </ul>

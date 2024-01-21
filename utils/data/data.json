@@ -1,0 +1,1174 @@
+{
+  "users": [
+    {
+      "cuid": "",
+      "full_name": "",
+      "company_name": "",
+      "phone_number": "",
+      "email": "",
+      "address": {
+        "street_address": "",
+        "city": "",
+        "state": "",
+        "postal_code": ""
+      }
+    },
+    {
+      "cuid": "clrl1xhk300003b6j667uignj",
+      "email": "dsff@gmail.com",
+      "first_name": "hgjfhg",
+      "last_name": "hgfhg",
+      "company": "fh",
+      "address": {
+        "street_address": "g",
+        "apartment": "ghf",
+        "city": "hg",
+        "state": "f",
+        "postal_code": "g"
+      },
+      "phone": "gffghfhgffgfhg"
+    }
+  ],
+  "wishlist": [
+    {
+      "cuid": "",
+      "products": []
+    }
+  ],
+  "cart": [
+    {
+      "cuid": "clrjpd2pf00003b6job0ms6ok",
+      "products": [
+        {
+          "id": 13,
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/13/1.jpg",
+            "https://cdn.dummyjson.com/product-images/13/2.png",
+            "https://cdn.dummyjson.com/product-images/13/3.jpg",
+            "https://cdn.dummyjson.com/product-images/13/4.jpg",
+            "https://cdn.dummyjson.com/product-images/13/thumbnail.webp"
+          ],
+          "quantity": 1,
+          "size": "S",
+          "color": "Black"
+        },
+        {
+          "id": 14,
+          "title": "Non-Alcoholic Concentrated Perfume Oil",
+          "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
+          "price": 120,
+          "discountPercentage": 15.6,
+          "rating": 4.21,
+          "stock": 114,
+          "brand": "Al Munakh",
+          "category": "fragrances",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/14/1.jpg",
+            "https://cdn.dummyjson.com/product-images/14/2.jpg",
+            "https://cdn.dummyjson.com/product-images/14/3.jpg",
+            "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "size": "S",
+          "color": "Black"
+        },
+        {
+          "id": 15,
+          "title": "Eau De Perfume Spray",
+          "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+          "price": 30,
+          "discountPercentage": 10.99,
+          "rating": 4.7,
+          "stock": 105,
+          "brand": "Lord - Al-Rehab",
+          "category": "fragrances",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/15/1.jpg",
+            "https://cdn.dummyjson.com/product-images/15/2.jpg",
+            "https://cdn.dummyjson.com/product-images/15/3.jpg",
+            "https://cdn.dummyjson.com/product-images/15/4.jpg",
+            "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "size": "S",
+          "color": "Black"
+        }
+      ]
+    },
+    {
+      "cuid": "clrl1xhk300003b6j667uignj",
+      "products": [
+        {
+          "id": 58,
+          "title": "formal offices shoes",
+          "description": "Pattern Type: Solid, Material: PU, Toe Shape: Pointed Toe ,Outsole Material: Rubber",
+          "price": 57,
+          "discountPercentage": 12,
+          "rating": 4.41,
+          "stock": 68,
+          "brand": "The Warehouse",
+          "category": "mens-shoes",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/58/1.jpg",
+            "https://cdn.dummyjson.com/product-images/58/2.jpg",
+            "https://cdn.dummyjson.com/product-images/58/3.jpg",
+            "https://cdn.dummyjson.com/product-images/58/4.jpg",
+            "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg"
+          ],
+          "quantity": 3,
+          "size": "S",
+          "color": "Black"
+        },
+        {
+          "id": 57,
+          "title": "Loafers for men",
+          "description": "Men Shoes - Loafers for men - Rubber Shoes - Nylon Shoes - Shoes for men - Moccassion - Pure Nylon (Rubber) Expot Quality.",
+          "price": 47,
+          "discountPercentage": 10.91,
+          "rating": 4.91,
+          "stock": 20,
+          "brand": "Rubber",
+          "category": "mens-shoes",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/57/1.jpg",
+            "https://cdn.dummyjson.com/product-images/57/2.jpg",
+            "https://cdn.dummyjson.com/product-images/57/3.jpg",
+            "https://cdn.dummyjson.com/product-images/57/4.jpg",
+            "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "size": "S",
+          "color": "Black"
+        },
+        {
+          "id": 56,
+          "title": "Sneakers Joggers Shoes",
+          "description": "Gender: Men , Colors: Same as DisplayedCondition: 100% Brand New",
+          "price": 40,
+          "discountPercentage": 12.57,
+          "rating": 4.38,
+          "stock": 6,
+          "brand": "Sneakers",
+          "category": "mens-shoes",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/56/1.jpg",
+            "https://cdn.dummyjson.com/product-images/56/2.jpg",
+            "https://cdn.dummyjson.com/product-images/56/3.jpg",
+            "https://cdn.dummyjson.com/product-images/56/4.jpg",
+            "https://cdn.dummyjson.com/product-images/56/5.jpg",
+            "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "size": "S",
+          "color": "Black"
+        },
+        {
+          "id": 60,
+          "title": "Stylish Casual Jeans Shoes",
+          "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
+          "price": 58,
+          "discountPercentage": 7.55,
+          "rating": 4.55,
+          "stock": 129,
+          "brand": "Sneakers",
+          "category": "mens-shoes",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/60/1.jpg",
+            "https://cdn.dummyjson.com/product-images/60/2.jpg",
+            "https://cdn.dummyjson.com/product-images/60/3.jpg",
+            "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "size": "S",
+          "color": "Black"
+        },
+        {
+          "id": 59,
+          "title": "Spring and summershoes",
+          "description": "Comfortable stretch cloth, lightweight body; ,rubber sole, anti-skid wear;",
+          "price": 20,
+          "discountPercentage": 8.71,
+          "rating": 4.33,
+          "stock": 137,
+          "brand": "Sneakers",
+          "category": "mens-shoes",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/59/1.jpg",
+            "https://cdn.dummyjson.com/product-images/59/2.jpg",
+            "https://cdn.dummyjson.com/product-images/59/3.jpg",
+            "https://cdn.dummyjson.com/product-images/59/4.jpg",
+            "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg"
+          ],
+          "quantity": 3,
+          "size": "S",
+          "color": "Black"
+        },
+        {
+          "id": 13,
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/13/1.jpg",
+            "https://cdn.dummyjson.com/product-images/13/2.png",
+            "https://cdn.dummyjson.com/product-images/13/3.jpg",
+            "https://cdn.dummyjson.com/product-images/13/4.jpg",
+            "https://cdn.dummyjson.com/product-images/13/thumbnail.webp"
+          ],
+          "quantity": 1,
+          "size": "S",
+          "color": "Black"
+        },
+        {
+          "id": 84,
+          "title": "Square Sunglasses",
+          "description": "Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059",
+          "price": 28,
+          "discountPercentage": 13.89,
+          "rating": 4.64,
+          "stock": 64,
+          "brand": "mastar watch",
+          "category": "sunglasses",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/84/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/84/1.jpg",
+            "https://cdn.dummyjson.com/product-images/84/2.jpg",
+            "https://cdn.dummyjson.com/product-images/84/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "size": "S",
+          "color": "Black"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "cuid": "",
+      "products": [],
+      "coupon_applied": "",
+      "total_amount": "",
+      "shipping_charge": "free",
+      "discounted_amount": "",
+      "taxes": "",
+      "purchased_amount": "",
+      "purchased_at": ""
+    },
+    {
+      "cuid": "clrl1xhk300003b6j667uignj",
+      "orders": [
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 57,
+              "title": "Loafers for men",
+              "description": "Men Shoes - Loafers for men - Rubber Shoes - Nylon Shoes - Shoes for men - Moccassion - Pure Nylon (Rubber) Expot Quality.",
+              "price": 47,
+              "discountPercentage": 10.91,
+              "rating": 4.91,
+              "stock": 20,
+              "brand": "Rubber",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/57/1.jpg",
+                "https://cdn.dummyjson.com/product-images/57/2.jpg",
+                "https://cdn.dummyjson.com/product-images/57/3.jpg",
+                "https://cdn.dummyjson.com/product-images/57/4.jpg",
+                "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 58,
+              "title": "formal offices shoes",
+              "description": "Pattern Type: Solid, Material: PU, Toe Shape: Pointed Toe ,Outsole Material: Rubber",
+              "price": 57,
+              "discountPercentage": 12,
+              "rating": 4.41,
+              "stock": 68,
+              "brand": "The Warehouse",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/58/1.jpg",
+                "https://cdn.dummyjson.com/product-images/58/2.jpg",
+                "https://cdn.dummyjson.com/product-images/58/3.jpg",
+                "https://cdn.dummyjson.com/product-images/58/4.jpg",
+                "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 59,
+              "title": "Spring and summershoes",
+              "description": "Comfortable stretch cloth, lightweight body; ,rubber sole, anti-skid wear;",
+              "price": 20,
+              "discountPercentage": 8.71,
+              "rating": 4.33,
+              "stock": 137,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/59/1.jpg",
+                "https://cdn.dummyjson.com/product-images/59/2.jpg",
+                "https://cdn.dummyjson.com/product-images/59/3.jpg",
+                "https://cdn.dummyjson.com/product-images/59/4.jpg",
+                "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 60,
+              "title": "Stylish Casual Jeans Shoes",
+              "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
+              "price": 58,
+              "discountPercentage": 7.55,
+              "rating": 4.55,
+              "stock": 129,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/60/1.jpg",
+                "https://cdn.dummyjson.com/product-images/60/2.jpg",
+                "https://cdn.dummyjson.com/product-images/60/3.jpg",
+                "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": "UNIBLOXSAVE10",
+          "total_amount": 163.91129999999998,
+          "shipping_charge": 0,
+          "discounted_amount": 16.391129999999997,
+          "tax_amount": 29.504033999999997,
+          "purchased_amount": 176,
+          "purchased_at": "2024-01-21T20:06:45.530Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg"
+        },
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 58,
+              "title": "formal offices shoes",
+              "description": "Pattern Type: Solid, Material: PU, Toe Shape: Pointed Toe ,Outsole Material: Rubber",
+              "price": 57,
+              "discountPercentage": 12,
+              "rating": 4.41,
+              "stock": 68,
+              "brand": "The Warehouse",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/58/1.jpg",
+                "https://cdn.dummyjson.com/product-images/58/2.jpg",
+                "https://cdn.dummyjson.com/product-images/58/3.jpg",
+                "https://cdn.dummyjson.com/product-images/58/4.jpg",
+                "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 59,
+              "title": "Spring and summershoes",
+              "description": "Comfortable stretch cloth, lightweight body; ,rubber sole, anti-skid wear;",
+              "price": 20,
+              "discountPercentage": 8.71,
+              "rating": 4.33,
+              "stock": 137,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/59/1.jpg",
+                "https://cdn.dummyjson.com/product-images/59/2.jpg",
+                "https://cdn.dummyjson.com/product-images/59/3.jpg",
+                "https://cdn.dummyjson.com/product-images/59/4.jpg",
+                "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 60,
+              "title": "Stylish Casual Jeans Shoes",
+              "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
+              "price": 58,
+              "discountPercentage": 7.55,
+              "rating": 4.55,
+              "stock": 129,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/60/1.jpg",
+                "https://cdn.dummyjson.com/product-images/60/2.jpg",
+                "https://cdn.dummyjson.com/product-images/60/3.jpg",
+                "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 57,
+              "title": "Loafers for men",
+              "description": "Men Shoes - Loafers for men - Rubber Shoes - Nylon Shoes - Shoes for men - Moccassion - Pure Nylon (Rubber) Expot Quality.",
+              "price": 47,
+              "discountPercentage": 10.91,
+              "rating": 4.91,
+              "stock": 20,
+              "brand": "Rubber",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/57/1.jpg",
+                "https://cdn.dummyjson.com/product-images/57/2.jpg",
+                "https://cdn.dummyjson.com/product-images/57/3.jpg",
+                "https://cdn.dummyjson.com/product-images/57/4.jpg",
+                "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 56,
+              "title": "Sneakers Joggers Shoes",
+              "description": "Gender: Men , Colors: Same as DisplayedCondition: 100% Brand New",
+              "price": 40,
+              "discountPercentage": 12.57,
+              "rating": 4.38,
+              "stock": 6,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/56/1.jpg",
+                "https://cdn.dummyjson.com/product-images/56/2.jpg",
+                "https://cdn.dummyjson.com/product-images/56/3.jpg",
+                "https://cdn.dummyjson.com/product-images/56/4.jpg",
+                "https://cdn.dummyjson.com/product-images/56/5.jpg",
+                "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": "UNIBLOX10",
+          "total_amount": 198.8833,
+          "shipping_charge": 0,
+          "discounted_amount": 19.88833,
+          "tax_amount": 35.798994,
+          "purchased_amount": 214,
+          "purchased_at": "2024-01-21T21:01:00.605Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg",
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 58,
+              "title": "formal offices shoes",
+              "description": "Pattern Type: Solid, Material: PU, Toe Shape: Pointed Toe ,Outsole Material: Rubber",
+              "price": 57,
+              "discountPercentage": 12,
+              "rating": 4.41,
+              "stock": 68,
+              "brand": "The Warehouse",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/58/1.jpg",
+                "https://cdn.dummyjson.com/product-images/58/2.jpg",
+                "https://cdn.dummyjson.com/product-images/58/3.jpg",
+                "https://cdn.dummyjson.com/product-images/58/4.jpg",
+                "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 57,
+              "title": "Loafers for men",
+              "description": "Men Shoes - Loafers for men - Rubber Shoes - Nylon Shoes - Shoes for men - Moccassion - Pure Nylon (Rubber) Expot Quality.",
+              "price": 47,
+              "discountPercentage": 10.91,
+              "rating": 4.91,
+              "stock": 20,
+              "brand": "Rubber",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/57/1.jpg",
+                "https://cdn.dummyjson.com/product-images/57/2.jpg",
+                "https://cdn.dummyjson.com/product-images/57/3.jpg",
+                "https://cdn.dummyjson.com/product-images/57/4.jpg",
+                "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 56,
+              "title": "Sneakers Joggers Shoes",
+              "description": "Gender: Men , Colors: Same as DisplayedCondition: 100% Brand New",
+              "price": 40,
+              "discountPercentage": 12.57,
+              "rating": 4.38,
+              "stock": 6,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/56/1.jpg",
+                "https://cdn.dummyjson.com/product-images/56/2.jpg",
+                "https://cdn.dummyjson.com/product-images/56/3.jpg",
+                "https://cdn.dummyjson.com/product-images/56/4.jpg",
+                "https://cdn.dummyjson.com/product-images/56/5.jpg",
+                "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 60,
+              "title": "Stylish Casual Jeans Shoes",
+              "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
+              "price": 58,
+              "discountPercentage": 7.55,
+              "rating": 4.55,
+              "stock": 129,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/60/1.jpg",
+                "https://cdn.dummyjson.com/product-images/60/2.jpg",
+                "https://cdn.dummyjson.com/product-images/60/3.jpg",
+                "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": "UNIBLOXAMAZING18",
+          "total_amount": 180.6253,
+          "shipping_charge": 0,
+          "discounted_amount": 18.062530000000002,
+          "tax_amount": 32.512554,
+          "purchased_amount": 194,
+          "purchased_at": "2024-01-21T21:09:25.495Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg",
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 56,
+              "title": "Sneakers Joggers Shoes",
+              "description": "Gender: Men , Colors: Same as DisplayedCondition: 100% Brand New",
+              "price": 40,
+              "discountPercentage": 12.57,
+              "rating": 4.38,
+              "stock": 6,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/56/1.jpg",
+                "https://cdn.dummyjson.com/product-images/56/2.jpg",
+                "https://cdn.dummyjson.com/product-images/56/3.jpg",
+                "https://cdn.dummyjson.com/product-images/56/4.jpg",
+                "https://cdn.dummyjson.com/product-images/56/5.jpg",
+                "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 57,
+              "title": "Loafers for men",
+              "description": "Men Shoes - Loafers for men - Rubber Shoes - Nylon Shoes - Shoes for men - Moccassion - Pure Nylon (Rubber) Expot Quality.",
+              "price": 47,
+              "discountPercentage": 10.91,
+              "rating": 4.91,
+              "stock": 20,
+              "brand": "Rubber",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/57/1.jpg",
+                "https://cdn.dummyjson.com/product-images/57/2.jpg",
+                "https://cdn.dummyjson.com/product-images/57/3.jpg",
+                "https://cdn.dummyjson.com/product-images/57/4.jpg",
+                "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": null,
+          "total_amount": 76.8443,
+          "shipping_charge": 0,
+          "discounted_amount": 0,
+          "tax_amount": 13.831974,
+          "purchased_amount": 89,
+          "purchased_at": "2024-01-21T21:09:49.253Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg",
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 59,
+              "title": "Spring and summershoes",
+              "description": "Comfortable stretch cloth, lightweight body; ,rubber sole, anti-skid wear;",
+              "price": 20,
+              "discountPercentage": 8.71,
+              "rating": 4.33,
+              "stock": 137,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/59/1.jpg",
+                "https://cdn.dummyjson.com/product-images/59/2.jpg",
+                "https://cdn.dummyjson.com/product-images/59/3.jpg",
+                "https://cdn.dummyjson.com/product-images/59/4.jpg",
+                "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg"
+              ],
+              "quantity": 2,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 60,
+              "title": "Stylish Casual Jeans Shoes",
+              "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
+              "price": 58,
+              "discountPercentage": 7.55,
+              "rating": 4.55,
+              "stock": 129,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/60/1.jpg",
+                "https://cdn.dummyjson.com/product-images/60/2.jpg",
+                "https://cdn.dummyjson.com/product-images/60/3.jpg",
+                "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg"
+              ],
+              "quantity": 2,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": null,
+          "total_amount": 143.758,
+          "shipping_charge": 0,
+          "discounted_amount": 0,
+          "tax_amount": 25.876440000000002,
+          "purchased_amount": 168,
+          "purchased_at": "2024-01-21T21:11:17.421Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg",
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 58,
+              "title": "formal offices shoes",
+              "description": "Pattern Type: Solid, Material: PU, Toe Shape: Pointed Toe ,Outsole Material: Rubber",
+              "price": 57,
+              "discountPercentage": 12,
+              "rating": 4.41,
+              "stock": 68,
+              "brand": "The Warehouse",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/58/1.jpg",
+                "https://cdn.dummyjson.com/product-images/58/2.jpg",
+                "https://cdn.dummyjson.com/product-images/58/3.jpg",
+                "https://cdn.dummyjson.com/product-images/58/4.jpg",
+                "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 57,
+              "title": "Loafers for men",
+              "description": "Men Shoes - Loafers for men - Rubber Shoes - Nylon Shoes - Shoes for men - Moccassion - Pure Nylon (Rubber) Expot Quality.",
+              "price": 47,
+              "discountPercentage": 10.91,
+              "rating": 4.91,
+              "stock": 20,
+              "brand": "Rubber",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/57/1.jpg",
+                "https://cdn.dummyjson.com/product-images/57/2.jpg",
+                "https://cdn.dummyjson.com/product-images/57/3.jpg",
+                "https://cdn.dummyjson.com/product-images/57/4.jpg",
+                "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": null,
+          "total_amount": 92.03229999999999,
+          "shipping_charge": 0,
+          "discounted_amount": 0,
+          "tax_amount": 16.565814,
+          "purchased_amount": 108,
+          "purchased_at": "2024-01-21T21:11:32.856Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg",
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 58,
+              "title": "formal offices shoes",
+              "description": "Pattern Type: Solid, Material: PU, Toe Shape: Pointed Toe ,Outsole Material: Rubber",
+              "price": 57,
+              "discountPercentage": 12,
+              "rating": 4.41,
+              "stock": 68,
+              "brand": "The Warehouse",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/58/1.jpg",
+                "https://cdn.dummyjson.com/product-images/58/2.jpg",
+                "https://cdn.dummyjson.com/product-images/58/3.jpg",
+                "https://cdn.dummyjson.com/product-images/58/4.jpg",
+                "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg"
+              ],
+              "quantity": 8,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": null,
+          "total_amount": 401.28,
+          "shipping_charge": 0,
+          "discounted_amount": 0,
+          "tax_amount": 72.23039999999999,
+          "purchased_amount": 473,
+          "purchased_at": "2024-01-21T21:12:08.623Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg",
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 56,
+              "title": "Sneakers Joggers Shoes",
+              "description": "Gender: Men , Colors: Same as DisplayedCondition: 100% Brand New",
+              "price": 40,
+              "discountPercentage": 12.57,
+              "rating": 4.38,
+              "stock": 6,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/56/1.jpg",
+                "https://cdn.dummyjson.com/product-images/56/2.jpg",
+                "https://cdn.dummyjson.com/product-images/56/3.jpg",
+                "https://cdn.dummyjson.com/product-images/56/4.jpg",
+                "https://cdn.dummyjson.com/product-images/56/5.jpg",
+                "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg"
+              ],
+              "quantity": 5,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": null,
+          "total_amount": 174.86,
+          "shipping_charge": 0,
+          "discounted_amount": 0,
+          "tax_amount": 31.474800000000005,
+          "purchased_amount": 205,
+          "purchased_at": "2024-01-21T21:15:22.130Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg",
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 59,
+              "title": "Spring and summershoes",
+              "description": "Comfortable stretch cloth, lightweight body; ,rubber sole, anti-skid wear;",
+              "price": 20,
+              "discountPercentage": 8.71,
+              "rating": 4.33,
+              "stock": 137,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/59/1.jpg",
+                "https://cdn.dummyjson.com/product-images/59/2.jpg",
+                "https://cdn.dummyjson.com/product-images/59/3.jpg",
+                "https://cdn.dummyjson.com/product-images/59/4.jpg",
+                "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 60,
+              "title": "Stylish Casual Jeans Shoes",
+              "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
+              "price": 58,
+              "discountPercentage": 7.55,
+              "rating": 4.55,
+              "stock": 129,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/60/1.jpg",
+                "https://cdn.dummyjson.com/product-images/60/2.jpg",
+                "https://cdn.dummyjson.com/product-images/60/3.jpg",
+                "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 58,
+              "title": "formal offices shoes",
+              "description": "Pattern Type: Solid, Material: PU, Toe Shape: Pointed Toe ,Outsole Material: Rubber",
+              "price": 57,
+              "discountPercentage": 12,
+              "rating": 4.41,
+              "stock": 68,
+              "brand": "The Warehouse",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/58/1.jpg",
+                "https://cdn.dummyjson.com/product-images/58/2.jpg",
+                "https://cdn.dummyjson.com/product-images/58/3.jpg",
+                "https://cdn.dummyjson.com/product-images/58/4.jpg",
+                "https://cdn.dummyjson.com/product-images/58/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 57,
+              "title": "Loafers for men",
+              "description": "Men Shoes - Loafers for men - Rubber Shoes - Nylon Shoes - Shoes for men - Moccassion - Pure Nylon (Rubber) Expot Quality.",
+              "price": 47,
+              "discountPercentage": 10.91,
+              "rating": 4.91,
+              "stock": 20,
+              "brand": "Rubber",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/57/1.jpg",
+                "https://cdn.dummyjson.com/product-images/57/2.jpg",
+                "https://cdn.dummyjson.com/product-images/57/3.jpg",
+                "https://cdn.dummyjson.com/product-images/57/4.jpg",
+                "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": null,
+          "total_amount": 163.9113,
+          "shipping_charge": 0,
+          "discounted_amount": 0,
+          "tax_amount": 29.504034,
+          "purchased_amount": 192,
+          "purchased_at": "2024-01-21T21:15:51.533Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg",
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "cuid": "clrl1xhk300003b6j667uignj",
+          "products": [
+            {
+              "id": 57,
+              "title": "Loafers for men",
+              "description": "Men Shoes - Loafers for men - Rubber Shoes - Nylon Shoes - Shoes for men - Moccassion - Pure Nylon (Rubber) Expot Quality.",
+              "price": 47,
+              "discountPercentage": 10.91,
+              "rating": 4.91,
+              "stock": 20,
+              "brand": "Rubber",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/57/1.jpg",
+                "https://cdn.dummyjson.com/product-images/57/2.jpg",
+                "https://cdn.dummyjson.com/product-images/57/3.jpg",
+                "https://cdn.dummyjson.com/product-images/57/4.jpg",
+                "https://cdn.dummyjson.com/product-images/57/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 56,
+              "title": "Sneakers Joggers Shoes",
+              "description": "Gender: Men , Colors: Same as DisplayedCondition: 100% Brand New",
+              "price": 40,
+              "discountPercentage": 12.57,
+              "rating": 4.38,
+              "stock": 6,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/56/1.jpg",
+                "https://cdn.dummyjson.com/product-images/56/2.jpg",
+                "https://cdn.dummyjson.com/product-images/56/3.jpg",
+                "https://cdn.dummyjson.com/product-images/56/4.jpg",
+                "https://cdn.dummyjson.com/product-images/56/5.jpg",
+                "https://cdn.dummyjson.com/product-images/56/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 59,
+              "title": "Spring and summershoes",
+              "description": "Comfortable stretch cloth, lightweight body; ,rubber sole, anti-skid wear;",
+              "price": 20,
+              "discountPercentage": 8.71,
+              "rating": 4.33,
+              "stock": 137,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/59/1.jpg",
+                "https://cdn.dummyjson.com/product-images/59/2.jpg",
+                "https://cdn.dummyjson.com/product-images/59/3.jpg",
+                "https://cdn.dummyjson.com/product-images/59/4.jpg",
+                "https://cdn.dummyjson.com/product-images/59/thumbnail.jpg"
+              ],
+              "quantity": 2,
+              "size": "S",
+              "color": "Black"
+            },
+            {
+              "id": 60,
+              "title": "Stylish Casual Jeans Shoes",
+              "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
+              "price": 58,
+              "discountPercentage": 7.55,
+              "rating": 4.55,
+              "stock": 129,
+              "brand": "Sneakers",
+              "category": "mens-shoes",
+              "thumbnail": "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg",
+              "images": [
+                "https://cdn.dummyjson.com/product-images/60/1.jpg",
+                "https://cdn.dummyjson.com/product-images/60/2.jpg",
+                "https://cdn.dummyjson.com/product-images/60/3.jpg",
+                "https://cdn.dummyjson.com/product-images/60/thumbnail.jpg"
+              ],
+              "quantity": 1,
+              "size": "S",
+              "color": "Black"
+            }
+          ],
+          "coupon_applied": null,
+          "total_amount": 166.9813,
+          "shipping_charge": 0,
+          "discounted_amount": 0,
+          "tax_amount": 30.056634,
+          "purchased_amount": 196,
+          "purchased_at": "2024-01-21T21:16:12.800Z",
+          "address": {
+            "street_address": "g",
+            "apartment": "ghf",
+            "city": "hg",
+            "state": "f",
+            "postal_code": "g"
+          },
+          "phone": "gffghfhgffgfhg",
+          "payment_method": "Cash on Delivery"
+        }
+      ]
+    }
+  ],
+  "coupons": [
+    {
+      "cuid": "clrl1xhk300003b6j667uignj",
+      "coupons": [
+        {
+          "code": "UNIBLOXSAVE10",
+          "active": false,
+          "generated_at": "",
+          "applied_at": "2024-01-21T20:06:45.558Z"
+        },
+        {
+          "code": "UNIBLOX10",
+          "active": false,
+          "generated_at": "",
+          "applied_at": "2024-01-21T21:01:00.776Z"
+        },
+        {
+          "code": "UNIBLOXAMAZING18",
+          "active": false,
+          "generated_at": "2024-01-21T21:01:00.776Z",
+          "applied_at": "2024-01-21T21:09:25.618Z"
+        },
+        {
+          "code": "UNIBLOXCHOICE91",
+          "active": true,
+          "generated_at": "2024-01-21T21:15:22.303Z",
+          "applied_at": ""
+        },
+        {
+          "code": "UNIBLOXGRABNOW92",
+          "active": true,
+          "generated_at": "2024-01-21T21:16:12.837Z",
+          "applied_at": ""
+        },
+        {
+          "code": "UNIBLOXCLEARANCE83",
+          "active": true,
+          "generated_at": "2024-01-21T21:25:35.034Z",
+          "applied_at": ""
+        }
+      ]
+    }
+  ]
+}
