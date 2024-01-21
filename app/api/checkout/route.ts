@@ -4,8 +4,8 @@ import { join } from "path";
 const dataPath = join(process.cwd(), "utils", "data", "data.json");
 
 import data from "../../../utils/data/data.json";
-import { generateCoupon } from "../coupons/generate/route";
 import { COUPON_GENERATION_ORDER_COUNT } from "@/utils/CONSTANTS";
+import { generateCoupon } from "@/utils";
 
 export async function POST(req: NextRequest) {
   try {
@@ -128,13 +128,27 @@ export async function POST(req: NextRequest) {
       data.cart[userCartIndex].products = [];
     }
 
-    if ((data?.orders[userOrderIndex]?.orders?.length ?? 0) % Number(COUPON_GENERATION_ORDER_COUNT) === 0) {
+    if (
+      (data?.orders[userOrderIndex]?.orders?.length ?? 0) %
+        Number(COUPON_GENERATION_ORDER_COUNT) ===
+      0
+    ) {
       // Check if the cuid already exists in the coupons data
       const existingCoupons = data.coupons.find(
         (category) => category.cuid === cuid
       );
 
-      const newCoupon = generateCoupon(cuid);
+      // Extract the names of active coupons
+      const activeCouponNames = data.coupons.reduce((names, category) => {
+        category.coupons.forEach((coupon) => {
+          if (coupon.active) {
+            names.add(coupon.code);
+          }
+        });
+        return names;
+      }, new Set<string>());
+
+      const newCoupon = generateCoupon(cuid, activeCouponNames);
 
       if (existingCoupons) {
         // If cuid already exists, push new coupons into it

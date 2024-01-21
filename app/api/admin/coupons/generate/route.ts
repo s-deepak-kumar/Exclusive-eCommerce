@@ -4,7 +4,7 @@ import { join } from "path";
 const dataPath = join(process.cwd(), "utils", "data", "data.json");
 
 import data from "../../../../../utils/data/data.json";
-import { generateCoupon } from "@/app/api/coupons/generate/route";
+import { generateCoupon } from "@/utils";
 
 export async function POST(req: NextRequest) {
   try {
@@ -16,7 +16,17 @@ export async function POST(req: NextRequest) {
       (category) => category.cuid === cuid
     );
 
-    const newCoupon = generateCoupon(cuid);
+    // Extract the names of active coupons
+  const activeCouponNames = data.coupons.reduce((names, category) => {
+    category.coupons.forEach((coupon) => {
+      if (coupon.active) {
+        names.add(coupon.code);
+      }
+    });
+    return names;
+  }, new Set<string>());
+
+    const newCoupon = generateCoupon(cuid, activeCouponNames);
 
     if (existingCoupons) {
       // If cuid already exists, push new coupons into it
